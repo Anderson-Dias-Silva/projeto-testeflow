@@ -1,2 +1,24 @@
 @charset "UTF-8";
 
+/* Cores:
+#5653FF
+#45DF5A
+ */
+
+ header {
+    
+    
+ }
+
+ header img {
+    display: flex;
+    justify-content: flex-start;
+ }
+
+ nav#menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    gap: 5px;
+}
