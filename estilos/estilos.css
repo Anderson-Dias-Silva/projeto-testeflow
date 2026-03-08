@@ -56,6 +56,7 @@
  nav#menu ul {
     list-style: none;
     display: flex;
+    flex-flow: wrap;
     justify-content: flex-end;
     align-content: center;
     gap: 5px;
@@ -72,4 +73,5 @@ nav#menu a {
 .logo img{
     margin: 0;
     padding: 0;
+    height: 60px;
 }
