@@ -5,14 +5,21 @@
 #45DF5A
  */
 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: ;
+}
+
  header {
     
     
  }
 
- header img {
+ nav#menu {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
  }
 
  nav#menu ul {
@@ -21,4 +28,16 @@
     justify-content: flex-end;
     align-content: center;
     gap: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+nav#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo img{
+    margin: 0;
+    padding: 0;
 }
