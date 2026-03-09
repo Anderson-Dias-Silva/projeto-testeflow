@@ -63,9 +63,37 @@ section#hero-section .hero-botao {
     font-weight: bold;
 }
 
-section#destaque-container {
+section#destaque {
+    padding: 20px;
+}
+
+.destaque-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    align-items: center;
+    gap: 20px;
+}
+
+.info-destaque {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-destaque i {
+    font-size: 40px;
+    color: #5653FF;
+    margin-bottom: 10px;
+}
+
+.info-destaque h3 {
+    color: #333;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.info-destaque p {
+    font-size: 14px;
+    line-height: 1.5;
 }
