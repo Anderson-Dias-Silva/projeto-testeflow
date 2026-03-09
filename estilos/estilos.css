@@ -13,6 +13,7 @@
     font-family: "Fira Sans", sans-serif;
 }
 
+/* <!-- Inicio nav header --> */
 nav#menu {
     display: flex;
     justify-content: space-between;
@@ -41,7 +42,10 @@ nav#menu a {
     padding: 0;
     height: 60px;
 }
+/* <!-- Fim nav header --> */
 
+
+/* <!-- Inicio Hero section --> */
 section#hero-section {
     background-image: linear-gradient(#5653FF, #5653FF, whitesmoke);
     color: white;
@@ -62,7 +66,10 @@ section#hero-section .hero-botao {
     text-decoration: none;
     font-weight: bold;
 }
+/* <!-- Fim Hero section --> */
 
+
+/* <!-- Inicio dos destaques --> */
 section#destaque {
     padding: 20px;
 }
@@ -97,8 +104,11 @@ section#destaque {
     font-size: 14px;
     line-height: 1.5;
 }
+/* <!-- Fim dos destaques --> */
 
-h1#como-funciona {
+
+/* <!-- Inicio como funciona --> */
+h1#titulo-como-funciona {
     text-align: center;
     margin-top: 20px;
     margin-bottom: -40px;
@@ -123,3 +133,14 @@ section#como-funciona {
     padding: 20px 5px;
     border-radius: 0px 0px 8px 8px;
 }
+/* <!-- Fim como funciona --> */
+
+
+/* <!-- Inicio Planos --> */
+
+/* <!-- Fim Planos --> */
+
+
+/* <!-- Inicio Depoimentos --> */
+
+/* <!-- Fim Depoimentos --> */
