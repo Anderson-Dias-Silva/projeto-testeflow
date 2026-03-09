@@ -76,7 +76,7 @@ nav#menu a {
 }
 
 section#hero-section {
-  background-color: #5653FF;
+  background-image: linear-gradient(#5653FF, #5653FF, whitesmoke);
   color: white;
   font-family: "Fira Sans", sans-serif;
   display: grid;
@@ -94,4 +94,11 @@ section#hero-section .hero-botao {
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+}
+
+section#destaque-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  align-items: center;
 }
