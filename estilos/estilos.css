@@ -60,7 +60,7 @@ nav#menu a {
 
 /* <!-- Inicio Hero section --> */
 section#hero-section {
-    background-image: linear-gradient(whitesmoke,#5653FF, #5653FF, whitesmoke);
+    background-color: #5653FF;
     color: white;
     font-family: "Fira Sans", sans-serif;
     display: grid;
