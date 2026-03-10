@@ -14,7 +14,7 @@
 }
 
 body {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     box-shadow: 2px 2px 8px black;
 }
@@ -153,7 +153,6 @@ section#como-funciona {
 /* <!-- Inicio Planos --> */
 h1#titulo-planos {
     text-align: center;
-    
 }
 
 section#planos {
@@ -235,5 +234,25 @@ section#planos li {
 section#depoimentos {
     background-color: #5653FF;
     color: white;
+}
+
+section#depoimentos h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    text-shadow: 1px 1px 5px black;
+}
+
+.depoimentos-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.depoimentos-container img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.depoimentos-container p {
+    padding-left: 20px;
 }
 /* <!-- Fim Depoimentos --> */
