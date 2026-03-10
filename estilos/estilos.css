@@ -137,10 +137,89 @@ section#como-funciona {
 
 
 /* <!-- Inicio Planos --> */
+h1#titulo-planos {
+    text-align: center;
+    
+}
 
+section#planos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.planos-container {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.226);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.planos-container ul {
+    list-style: none;
+}
+
+.planos-container h3 {
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    padding: 10px;
+    font-size: 1.4em;
+}
+
+h3#card1 {
+    background-color: #5653FF;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.card1 {
+    background-color: #5653ff33;
+    font-size: 1.8em;
+}
+
+h3#card2 {
+    background-color: #45DF5A;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.card2 {
+    background-color: #45DF5A33;
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: center;
+    width: 100%;
+}
+
+.card21 {
+    font-size: 1.8em;
+}
+
+h3#card3 {
+    background-color: #ffd900;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.card3 {
+    background-color: #ffd90033;
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: center;
+    width: 100%;
+}
+
+.card31 {
+    font-size: 1.8em;
+}
+
+section#planos li {
+    text-align: left;
+    padding: 10px 5px 5px 5px;
+}
 /* <!-- Fim Planos --> */
 
 
 /* <!-- Inicio Depoimentos --> */
-
+section#depoimentos {
+    background-color: #5653FF;
+    color: white;
+}
 /* <!-- Fim Depoimentos --> */
