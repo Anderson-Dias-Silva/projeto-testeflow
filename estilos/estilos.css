@@ -42,7 +42,7 @@ nav#menu a {
     text-decoration: none;
     color: black;
     border-radius: 4px;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 0px 0px 3px black;
     padding: 5px;
     margin: 5px 5px;
 }
@@ -96,7 +96,7 @@ section#destaque {
 }
 
 .info-destaque {
-    background-color: #f5f5f5;
+    background-color: #e4e4e4;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
@@ -249,12 +249,52 @@ h1#titulo-depoimentos {
 }
 
 .depoimentos-container img {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
     width: 250px;
     height: 150px;
 }
 
 .depoimentos-container p {
     padding-left: 20px;
-    align-content: center;
+    align-content: end;
+}
+
+.nome-depoimento {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    align-content: baseline;
 }
 /* <!-- Fim Depoimentos --> */
+
+
+/* <!-- Inicio Rodapé --> */
+footer#footer {
+    background-color: #e4e4e4;
+    color: black;
+    text-align: center;
+    padding: 18px 10px;
+    font-size: 0.93rem;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
+}
+
+footer#footer .footer-content {
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+footer#footer p {
+    margin: 0;
+    color: black;
+}
+/* <!-- Fim Rodapé --> */
