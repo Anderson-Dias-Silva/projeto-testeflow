@@ -284,7 +284,7 @@ p#link2 a {
 p#link2 {
     text-shadow: 1px 1px 5px black;
     grid-area: 2 / 2 / 3 / 3;
-    align-self: center;
+    align-self: flex-end;
     justify-self: center;
     
 }
@@ -322,8 +322,9 @@ p#link3 a {
 p#link3 {
     text-shadow: 1px 1px 5px black;
     grid-area: 2 / 3 / 3 / 4;
-    align-self: center;
+    align-self: flex-end;
     justify-self: center;
+    margin: 0px 30px;
 }
 
 section#planos li {
