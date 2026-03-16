@@ -199,10 +199,6 @@ section#como-funciona {
     border-radius: 8px 8px 0px 0px;
 }
 
-.como-funciona {
-    justify-self: center;
-}
-
 .circulo {
     border-radius: 50%;
     width: 10px;
