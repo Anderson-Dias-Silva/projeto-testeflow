@@ -168,20 +168,117 @@ section#destaque {
 .titulo-como-funciona {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: -40px;
+    margin-bottom: -10px;
 }
 
 section#como-funciona {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 5px;
-    padding: 50px;
+    padding: 30px;
+    align-items: flex-end;
 }
 
 .funciona-container {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.226);
     border-radius: 8px;
     text-align: center;
+    background-color: #5653ff33;
+    
+}
+
+
+
+.card-topo {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 8px;
+    background-color: #202046;
+    color: white;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.como-funciona {
+    justify-self: center;
+}
+
+.circulo {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(189, 189, 189);
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.tarefa {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    justify-content: space-between;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 6px;
+    background-color: #eeeeee;
+}
+
+.check-ok {
+    background-color: #45DF5A;
+    color: white;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 6px;
+}
+
+.tarefa1 {
+    text-decoration: line-through;
+}
+
+.tarefa1-ok {
+    background-color: #45df5a67;
+    color: green;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 6px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.check-nok {
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 6px;
+    color: #eeeeee;
+}
+
+.tarefa2-ok {
+    background-color: #5653ff67;
+    color: #1915ff;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 6px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.tarefa3-ok {
+    background-color: #ffd9003a;
+    color: #ffd900;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 6px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.tarefa4-ok {
+    background-color: rgba(255, 0, 0, 0.233);
+    color: red;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 6px;
+    text-shadow: 1px 1px 1px black;
 }
 
 .funciona-container h3 {
@@ -190,6 +287,11 @@ section#como-funciona {
     padding: 20px 5px;
     border-radius: 0px 0px 8px 8px;
     height: 40px;
+}
+
+.funciona-container img{
+    object-fit: contain;
+    width: 100%;    
 }
 /* <!-- Fim como funciona --> */
 
@@ -202,7 +304,6 @@ h1#titulo-planos {
 section#planos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 3fr 40px;
     gap: 10px;
     padding: 20px;
 }
@@ -238,9 +339,9 @@ p#link1 a {
     background-color: #5653FF;
     color: white;
     font-weight: bolder;
-    font-size: large;
+    font-size: 1.5em;
     text-decoration: none;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 0px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -276,7 +377,7 @@ p#link2 a {
     background-color: #45DF5A;
     color: white;
     font-weight: bolder;
-    font-size: large;
+    font-size: 1.5em;
     text-decoration: none;
     padding: 10px 30px 10px 30px;
     border: none;
@@ -317,9 +418,9 @@ p#link3 a {
     background-color: #ffd900;
     color: white;
     font-weight: bolder;
-    font-size: large;
+    font-size: 1.5em;
     text-decoration: none;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 0px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
