@@ -187,6 +187,12 @@ section#como-funciona {
     
 }
 
+.titulo.como-funciona {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
 .card-topo {
     display: flex;
     gap: 4px;
