@@ -19,6 +19,20 @@ body {
     box-shadow: 2px 2px 8px black;
 }
 
+h1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+h1::before,
+h1::after {
+    content: '';
+    flex: 1;
+    height: 2px;
+    background-color: #ccc;
+}
+
 /* <!-- Inicio nav header --> */
 nav#menu {
     display: flex;
@@ -300,6 +314,7 @@ section#como-funciona {
 /* <!-- Inicio Planos --> */
 h1#titulo-planos {
     text-align: center;
+    margin-top: 20px;
 }
 
 section#planos {
