@@ -174,7 +174,7 @@ section#destaque {
 section#como-funciona {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
+    gap: 15px;
     padding: 30px;
     align-items: flex-end;
 }
@@ -186,8 +186,6 @@ section#como-funciona {
     background-color: #5653ff33;
     
 }
-
-
 
 .card-topo {
     display: flex;
@@ -280,9 +278,10 @@ section#como-funciona {
 .funciona-container h3 {
     background-color: #5653FF;
     color: white;
-    padding: 20px 5px;
-    border-radius: 0px 0px 8px 8px;
+    padding: 5px 5px;
+    border-radius: 8px;
     height: 40px;
+    align-content: center;
 }
 
 .funciona-container img{
