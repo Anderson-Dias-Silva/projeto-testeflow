@@ -574,9 +574,13 @@ footer#footer p {
         align-items: center;
     }
 
+    
+}
+
+@media screen and (max-width: 500px) {
     section#planos {
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
         align-items: center;
     }
 }
