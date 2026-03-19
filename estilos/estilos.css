@@ -59,6 +59,14 @@ nav#menu a {
     box-shadow: 0px 0px 3px #5653FF;
     padding: 5px;
     margin: 2px 2px;
+    transition: 0.5s;
+}
+
+nav#menu a:hover {
+    background-color: #5653FF;
+    color: white;
+    box-shadow: 0px 0px 5px #45DF5A;
+    text-decoration: underline;
 }
 
 .link {
@@ -121,9 +129,17 @@ section#hero-section .hero-botao {
     font-size: larger;
     text-align: center;
     box-shadow: 0px 0px 10px #45DF5A;
+    transition: 0.5s;
 
     grid-area: 2 / 1 / 3 / 3;
     align-self: end;
+}
+
+section#hero-section .hero-botao:hover {
+    background-color: orangered;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 0px 0px 10px #45DF5A;
 }
 
 section#hero-section img {
@@ -363,6 +379,12 @@ p#link1 a {
     cursor: pointer;
     box-shadow: 0px 0px 10px #5653FF;
     display: block;
+    transition: 0.5s;
+}
+
+p#link1 a:hover {
+    background-color: orangered;
+    text-decoration: underline;
 }
 
 p#link1 {
@@ -401,6 +423,12 @@ p#link2 a {
     cursor: pointer;
     box-shadow: 0px 0px 10px #45DF5A;
     display: block;
+    transition: 0.5s;
+}
+
+p#link2 a:hover {
+    background-color: orangered;
+    text-decoration: underline;
 }
 
 p#link2 {
@@ -442,6 +470,11 @@ p#link3 a {
     cursor: pointer;
     box-shadow: 0px 0px 10px #ffd900;
     display: block;
+}
+
+p#link3 a:hover {
+    background-color: orangered;
+    text-decoration: underline;
 }
 
 p#link3 {
