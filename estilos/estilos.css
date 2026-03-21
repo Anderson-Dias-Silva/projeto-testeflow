@@ -118,7 +118,7 @@ section#hero-section svg {
 }
 
 section#hero-section .hero-botao {
-    margin: 5px 0px 10px 20px;
+    margin: 40px 0px 40px 40px;
     padding: 20px 20px;
     background-color: #45DF5A;
     color: white;
@@ -126,7 +126,7 @@ section#hero-section .hero-botao {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    font-size: larger;
+    font-size: 1.5em;
     text-align: center;
     box-shadow: 0px 0px 10px #45DF5A;
     transition: 0.5s;
