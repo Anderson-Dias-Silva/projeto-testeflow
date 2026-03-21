@@ -589,6 +589,33 @@ footer#footer p {
 
 @media screen and (max-width: 590px) {
 
+    section#hero-section .hero-conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section#hero-section h1 {
+        text-align: justify;
+        padding: 20px;
+    }
+
+    section#hero-section img {
+        align-self: center;
+    }
+
+    p#hero-botao {
+        order: 3;
+        width: 100%;
+        border-radius: none;
+        margin: auto;
+        padding: auto;
+    }
+
+    p#hero-botao a {
+        margin: auto;
+        
+    }
+
     .destaque-container {
         display: flex;
         flex-direction: column;
