@@ -626,7 +626,6 @@ footer#footer p {
 
     p#hero-botao a {
         margin: auto;
-        
     }
 
     .destaque-container {
@@ -641,18 +640,18 @@ footer#footer p {
     }
 
     .planos-container {
-        width: 380px;
+        width: 70%;
     }
 
     p#link1 {
-        width: 380px;
+        width: 70%;
     }
 
     p#link2 {
-        width: 380px;
+        width: 70%;
     }
 
     p#link3 {
-        width: 380px;
+        width: 70%;
     }
 }
