@@ -159,6 +159,7 @@ section#hero-section img {
 /* <!-- Inicio dos destaques --> */
 section#destaque {
     padding: 20px;
+    margin: 50px 0px;
 }
 
 .destaque-container {
@@ -199,21 +200,25 @@ section#destaque {
     text-align: center;
     margin-top: 20px;
     margin-bottom: -10px;
+    background-color: #e4e4e4;
+    padding-top: 15px;
 }
 
 section#como-funciona {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    gap: 20px;
     padding: 30px;
+    margin-bottom: 50px;
     align-items: flex-end;
+    background-color: #e4e4e4;
 }
 
 .funciona-container {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.226);
     border-radius: 8px;
     text-align: center;
-    background-color: #5653ff33;
+    background-color: rgba(22, 21, 75, 0.719)
     
 }
 
@@ -314,8 +319,9 @@ section#como-funciona {
 .funciona-container h3 {
     background-color: #5653FF;
     color: white;
+    text-shadow: 1px 1px 1px black;
     padding: 5px 5px;
-    border-radius: 8px;
+    border-radius: 0px 0px 8px 8px;
     height: 40px;
     align-content: center;
 }
@@ -374,6 +380,7 @@ p#link1 a {
     font-size: 1.5em;
     text-decoration: none;
     padding: 10px 0px;
+    margin-bottom: 30px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -418,6 +425,7 @@ p#link2 a {
     font-size: 1.5em;
     text-decoration: none;
     padding: 10px 30px 10px 30px;
+    margin-bottom: 30px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -465,6 +473,7 @@ p#link3 a {
     font-size: 1.5em;
     text-decoration: none;
     padding: 10px 0px;
+    margin-bottom: 30px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -481,7 +490,7 @@ p#link3 {
     text-shadow: 1px 1px 5px black;
     text-align: center;
     grid-area: 2 / 3 / 3 / 4;
-    align-self: flex-end;
+    align-self: center;
     justify-self: center;
     width: 100%;
 }
@@ -578,5 +587,21 @@ footer#footer p {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .planos-container {
+        width: 380px;
+    }
+
+    p#link1 {
+        width: 380px;
+    }
+
+    p#link2 {
+        width: 380px;
+    }
+
+    p#link3 {
+        width: 380px;
     }
 }
