@@ -74,7 +74,7 @@ nav#menu a:hover {
 
 .logo img{
     margin: 0;
-    padding: 5px 5px 5px 25px;
+    padding: 5px 5px 5px 15px;
     height: 60px;
 }
 /* <!-- Fim nav header --> */
@@ -588,6 +588,19 @@ footer#footer p {
 }
 
 @media screen and (max-width: 590px) {
+
+    nav#menu {
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    nav#menu ul {
+        margin: 5px;
+        padding: 0px;
+        gap: 2px
+    }
 
     section#hero-section .hero-conteudo {
         display: flex;
