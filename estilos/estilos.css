@@ -219,7 +219,7 @@ section#como-funciona {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.226);
     border-radius: 8px;
     text-align: center;
-    background-color: rgba(22, 21, 75, 0.692)
+    background-color: rgba(5, 4, 24, 0.925)
     
 }
 
@@ -234,9 +234,11 @@ section#como-funciona {
     gap: 4px;
     align-items: center;
     padding: 8px;
-    background-color: #0d0d1d;
+    margin-bottom: 5px;
+    background-color: rgba(5, 4, 24, 0.925);
     color: white;
     border-radius: 8px 8px 0px 0px;
+    border-bottom: 1px solid rgb(189, 189, 189);
 }
 
 .circulo {
@@ -266,7 +268,8 @@ section#como-funciona {
     margin: 5px;
     border: 1px solid rgb(189, 189, 189);
     border-radius: 6px;
-    background-color: #eeeeee;
+    background-color: rgba(5, 4, 24, 0.925);
+    color: white;
 }
 
 .check-ok {
@@ -284,10 +287,10 @@ section#como-funciona {
 
 .tarefa1-ok {
     background-color: #45df5a67;
-    color: green;
+    color: rgb(2, 231, 2);
     border: 1px solid rgb(189, 189, 189);
     border-radius: 6px;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px white;
 }
 
 .check-nok {
@@ -299,11 +302,11 @@ section#como-funciona {
 }
 
 .tarefa2-ok {
-    background-color: #5653ff67;
-    color: #1915ff;
+    background-color: #5653ff5b;
+    color: #0328fc;
     border: 1px solid rgb(189, 189, 189);
     border-radius: 6px;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px white;
 }
 
 .tarefa3-ok {
@@ -311,7 +314,7 @@ section#como-funciona {
     color: #ffd900;
     border: 1px solid rgb(189, 189, 189);
     border-radius: 6px;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px white;
 }
 
 .tarefa4-ok {
@@ -319,7 +322,7 @@ section#como-funciona {
     color: red;
     border: 1px solid rgb(189, 189, 189);
     border-radius: 6px;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 0px 0px 1px white;
 }
 
 .funciona-container h3 {
