@@ -259,10 +259,11 @@ section#como-funciona {
 }
 
 .tarefa {
-    display: flex;
+    display: grid;
+    grid-template-columns: 0.5fr 8fr 2fr;
+    align-items: center;
     padding: 5px;
     margin: 5px;
-    justify-content: space-between;
     border: 1px solid rgb(189, 189, 189);
     border-radius: 6px;
     background-color: #eeeeee;
@@ -273,6 +274,8 @@ section#como-funciona {
     color: white;
     border: 1px solid rgb(189, 189, 189);
     border-radius: 6px;
+    height: min-content;
+    align-self: center;
 }
 
 .tarefa1 {
@@ -291,6 +294,8 @@ section#como-funciona {
     border: 1px solid rgb(189, 189, 189);
     border-radius: 6px;
     color: #eeeeee;
+    height: min-content;
+    align-self: center;
 }
 
 .tarefa2-ok {
@@ -584,6 +589,12 @@ footer#footer p {
     .funciona-container {
         display: flex;
         flex-direction: column;
+    }
+
+    .tarefa {
+        display: grid;
+        grid-template-columns: 0.5fr 8fr 2fr;
+        align-items: center;
     }
 }
 
