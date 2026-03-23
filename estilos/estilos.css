@@ -640,18 +640,11 @@ footer#footer p {
     }
 
     .planos-container {
-        width: 70%;
+        width: 80%;
     }
 
-    p#link1 {
-        width: 70%;
+    p#link1, p#link2, p#link3 {
+        width: 80%;
     }
 
-    p#link2 {
-        width: 70%;
-    }
-
-    p#link3 {
-        width: 70%;
-    }
 }
