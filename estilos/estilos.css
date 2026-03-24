@@ -211,7 +211,6 @@ section#como-funciona {
     gap: 20px;
     padding: 30px;
     margin-bottom: 50px;
-    align-items: flex-end;
     background-color: #e4e4e4;
 }
 
@@ -220,6 +219,9 @@ section#como-funciona {
     border-radius: 8px;
     text-align: center;
     background-color: #2a2d46;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
 }
 
@@ -587,13 +589,14 @@ footer#footer p {
     section#como-funciona {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
     }
 
     .funciona-container {
         display: flex;
         flex-direction: column;
-    }
+        width: 490px;
+        align-self: center;
 
     .tarefa {
         display: grid;
@@ -646,6 +649,10 @@ footer#footer p {
     .destaque-container {
         display: flex;
         flex-direction: column;
+    }
+
+    .funciona-container {
+        width: 100%;
     }
 
     section#planos {
