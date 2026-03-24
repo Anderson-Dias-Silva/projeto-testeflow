@@ -219,7 +219,7 @@ section#como-funciona {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.226);
     border-radius: 8px;
     text-align: center;
-    background-color: rgba(5, 4, 24, 0.925)
+    background-color: #2a2d46;
     
 }
 
@@ -235,10 +235,10 @@ section#como-funciona {
     align-items: center;
     padding: 8px;
     margin-bottom: 5px;
-    background-color: rgba(5, 4, 24, 0.925);
+    background-color: #1B1C2E;
     color: white;
     border-radius: 8px 8px 0px 0px;
-    border-bottom: 1px solid rgb(189, 189, 189);
+    border-bottom: 1px solid #484a66;
 }
 
 .circulo {
@@ -266,16 +266,17 @@ section#como-funciona {
     align-items: center;
     padding: 5px;
     margin: 5px;
-    border: 1px solid rgb(189, 189, 189);
+    border: 1px solid #484a66;
     border-radius: 6px;
-    background-color: rgba(5, 4, 24, 0.925);
+    background-color: #1d1e30;
     color: white;
+    font-size: 0.8em;
 }
 
 .check-ok {
     background-color: #45DF5A;
     color: white;
-    border: 1px solid rgb(189, 189, 189);
+    border: 1px solid #484a66;
     border-radius: 6px;
     height: min-content;
     align-self: center;
@@ -288,15 +289,15 @@ section#como-funciona {
 .tarefa1-ok {
     background-color: #45df5a67;
     color: rgb(2, 231, 2);
-    border: 1px solid rgb(189, 189, 189);
+    border: 1px solid #484a66;
     border-radius: 6px;
     text-shadow: 1px 1px 1px white;
 }
 
 .check-nok {
-    border: 1px solid rgb(189, 189, 189);
+    border: 1px solid #484a66;
     border-radius: 6px;
-    color: #eeeeee;
+    color: #1B1C2E;
     height: min-content;
     align-self: center;
 }
@@ -304,7 +305,7 @@ section#como-funciona {
 .tarefa2-ok {
     background-color: #5653ff5b;
     color: #0328fc;
-    border: 1px solid rgb(189, 189, 189);
+    border: 1px solid #484a66;
     border-radius: 6px;
     text-shadow: 1px 1px 1px white;
 }
@@ -312,7 +313,7 @@ section#como-funciona {
 .tarefa3-ok {
     background-color: #ffd9003a;
     color: #ffd900;
-    border: 1px solid rgb(189, 189, 189);
+    border: 1px solid #484a66;
     border-radius: 6px;
     text-shadow: 1px 1px 1px white;
 }
@@ -320,7 +321,7 @@ section#como-funciona {
 .tarefa4-ok {
     background-color: rgba(255, 0, 0, 0.233);
     color: red;
-    border: 1px solid rgb(189, 189, 189);
+    border: 1px solid #484a66;
     border-radius: 6px;
     text-shadow: 0px 0px 1px white;
 }
