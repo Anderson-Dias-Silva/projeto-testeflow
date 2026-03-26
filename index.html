@@ -10,245 +10,252 @@
 </head>
 <body>
     <header>
-        <nav id="menu">
-            <div class="logo">
-                <img src="imagens/Teste.png" alt="logotipo completo do TesteFlow">
-            </div>
-            <ul>
-                <li><a href="#como-funciona">Como funciona</a></li>
-                <li><a href="#planos">Planos</a></li>
-                <li><a href="#depoimentos">Depoimentos</a></li>
-                <li><a class="link" href="#">Assine</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav id="menu">
+                <div class="logo">
+                    <img src="imagens/Teste.png" alt="Logotipo completo do TesteFlow">
+                </div>
+                <ul>
+                    <li><a href="#como-funciona">Como funciona</a></li>
+                    <li><a href="#planos">Planos</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a class="link-destaque" href="#">Assine</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section id="hero-section"> <!-- Inicio Hero section -->
-            <div class="hero-conteudo">
-                <h1>Organize todas as tarefas de sua empresa de forma ágil e eficiente!</h1>
-                <p id="hero-botao"><a href="#">Experimente Grátis</a></p>
-                <img src="imagens/hero-section/hero-section.png" alt="imagem com notebook tablet e smartphone sobre a mesa">
+        <section id="hero-section"> 
+            <div class="container hero-conteudo">
+                <div class="hero-texto">
+                    <h1>Organize todas as tarefas de sua empresa de forma ágil e eficiente!</h1>
+                    <a href="#" class="hero-botao">Experimente Grátis</a>
+                </div>
+                <img src="imagens/hero-section/hero-section.png" alt="Notebook, tablet e smartphone sobre a mesa">
             </div>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-		            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
-		        <defs>
-			        <linearGradient id="bg">
-				        <stop offset="0%" style="stop-color:rgba(130, 158, 249, 0.06)"></stop>
-				        <stop offset="50%" style="stop-color:rgba(76, 190, 255, 0.6)"></stop>
-				         <stop offset="100%" style="stop-color:rgba(115, 209, 72, 0.2)"></stop>
-			        </linearGradient>
-			        <path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
-	                s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
-		        </defs>
-		        <g>
-			        <use xlink:href='#wave' opacity=".3">
-				    <animateTransform
-                        attributeName="transform"
-                        attributeType="XML"
-                        type="translate"
-                        dur="10s"
-                        calcMode="spline"
-                        values="270 230; -334 180; 270 230"
-                        keyTimes="0; .5; 1"
-                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
-                        repeatCount="indefinite" />
-			        </use>
-			        <use xlink:href='#wave' opacity=".6">
-				        <animateTransform
-                        attributeName="transform"
-                        attributeType="XML"
-                        type="translate"
-                        dur="8s"
-                        calcMode="spline"
-                        values="-270 230;243 220;-270 230"
-                        keyTimes="0; .6; 1"
-                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
-                        repeatCount="indefinite" />
-			        </use>
-			        <use xlink:href='#wave' opacty=".9">
-				        <animateTransform
-                        attributeName="transform"
-                        attributeType="XML"
-                        type="translate"
-                        dur="6s"
-                        calcMode="spline"
-                        values="0 230;-140 200;0 230"
-                        keyTimes="0; .4; 1"
-                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
-                        repeatCount="indefinite" />
-			        </use>
-		        </g>
-	        </svg>
-        </section> <!-- Fim Hero section -->
+            <svg class="bg-wave" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+                <defs>
+                    <linearGradient id="bg">
+                        <stop offset="0%" style="stop-color:rgba(130, 158, 249, 0.06)"></stop>
+                        <stop offset="50%" style="stop-color:rgba(76, 190, 255, 0.6)"></stop>
+                        <stop offset="100%" style="stop-color:rgba(115, 209, 72, 0.2)"></stop>
+                    </linearGradient>
+                    <path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0 s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+                </defs>
+                <g>
+                    <use xlink:href='#wave' opacity=".3">
+                        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="10s" calcMode="spline" values="270 230; -334 180; 270 230" keyTimes="0; .5; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0" repeatCount="indefinite" />
+                    </use>
+                    <use xlink:href='#wave' opacity=".6">
+                        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="8s" calcMode="spline" values="-270 230;243 220;-270 230" keyTimes="0; .6; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0" repeatCount="indefinite" />
+                    </use>
+                    <use xlink:href='#wave' opacity=".9">
+                        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="6s" calcMode="spline" values="0 230;-140 200;0 230" keyTimes="0; .4; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0" repeatCount="indefinite" />
+                    </use>
+                </g>
+            </svg>
+        </section> 
         
-        <section id="destaque"> <!-- Inicio dos destaques -->
-            <div class="destaque-container">
+        <section id="destaque"> 
+            <div class="container destaque-grid">
                 <div class="info-destaque">
-                    <i class="fa-solid fa-clipboard-check"></i>
+                    <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i>
                     <h3>Gerenciamento Fácil</h3>
                     <p>A partir da utilização do TesteFlow, você consegue gerenciar toda as suas tarefas de maneira fácil, ágil e prática.</p>
                 </div>
                 <div class="info-destaque">
-                    <i class="fa-solid fa-people-arrows"></i>
+                    <i class="fa-solid fa-people-arrows" aria-hidden="true"></i>
                     <h3>Colaboração</h3>
                     <p>Temos um sistema de gestão integrado onde todos que utilizam podem colaborar com a inserção de dados de maneira rápida e centralizada.</p>
                 </div>
                 <div class="info-destaque">
-                    <i class="fa-solid fa-file-import"></i>
+                    <i class="fa-solid fa-file-import" aria-hidden="true"></i>
                     <h3>Relatórios</h3>
                     <p>Gere relatórios dinâmicos e prontos para serem apresentados em reuniões ou em estudos de melhorias.</p>
                 </div> 
             </div>
-        </section> <!-- Fim dos destaques -->
+        </section> 
 
-        <h1 class="titulo-como-funciona">Como Funciona</h1>
-        <section id="como-funciona"> <!-- Inicio como funciona -->
-            <div class="funciona-container">
-                <div class="card-topo">
-                    <div class="circulo red"></div>
-                    <div class="circulo yellow"></div>
-                    <div class="circulo green"></div>
-                    <span class="titulo como-funciona">TesteFlow - Painel de Tarefas FEV/26</span>
-                </div>
-                <div class="tarefa">
-                    <div class="check-ok"><i class="fa-solid fa-check"></i></div>
-                    <span class="tarefa1">Envio de lote - Lote#334</span>
-                    <span class="tarefa1-ok">Concluída</span>
-                </div>
-                <div class="tarefa">
-                    <div class="check-ok"><i class="fa-solid fa-check"></i></div>
-                    <span class="tarefa1">Preparação de lote - Lote#286</span>
-                    <span class="tarefa1-ok">Concluída</span>
-                </div>
-                <div class="tarefa">
-                    <div class="check-ok"><i class="fa-solid fa-check"></i></div>
-                    <span class="tarefa1">Manutenção preventiva - Es#44</span>
-                    <span class="tarefa1-ok">Concluída</span>
-                </div>
-                <div class="tarefa">
-                    <div class="check-nok"><i class="fa-solid fa-check"></i></div>
-                    <span class="tarefa2">Calibração de sensores - S#2</span>
-                    <span class="tarefa2-ok">Em andamento</span>
-                </div>
-                <div class="tarefa">
-                    <div class="check-nok"><i class="fa-solid fa-check"></i></div>
-                    <span class="tarefa3">Inspeção de qualidade - Lote#471</span>
-                    <span class="tarefa3-ok">Pendente</span>
-                </div>
-                <div class="tarefa">
-                    <div class="check-nok"><i class="fa-solid fa-check"></i></div>
-                    <span class="tarefa4">Troca de óleo - Compressor C#7</span>
-                    <span class="tarefa4-ok">Urgente</span>
-                </div>
-                <h3>Crie suas tarefas</h3>
-            </div>
+        <section id="como-funciona-section">
+            <div class="container">
+                <h2 class="titulo-secao">Como Funciona</h2>
+                <div class="como-funciona-grid">
+                    
+                    <div class="funciona-card">
+                        <div class="card-topo">
+                            <div class="circulo red"></div>
+                            <div class="circulo yellow"></div>
+                            <div class="circulo green"></div>
+                            <span class="titulo-janela">TesteFlow - Painel de Tarefas FEV/26</span>
+                        </div>
+                        <div class="tarefas-lista">
+                            <div class="tarefa">
+                                <div class="check-ok"><i class="fa-solid fa-check"></i></div>
+                                <span class="tarefa-texto riscado">Envio de lote - Lote#334</span>
+                                <span class="badge badge-concluida">Concluída</span>
+                            </div>
+                            <div class="tarefa">
+                                <div class="check-ok"><i class="fa-solid fa-check"></i></div>
+                                <span class="tarefa-texto riscado">Preparação de lote - Lote#286</span>
+                                <span class="badge badge-concluida">Concluída</span>
+                            </div>
+                            <div class="tarefa">
+                                <div class="check-ok"><i class="fa-solid fa-check"></i></div>
+                                <span class="tarefa-texto riscado">Manutenção preventiva - Es#44</span>
+                                <span class="badge badge-concluida">Concluída</span>
+                            </div>
+                            <div class="tarefa">
+                                <div class="check-nok"><i class="fa-solid fa-check"></i></div>
+                                <span class="tarefa-texto">Calibração de sensores - S#2</span>
+                                <span class="badge badge-andamento">Em andamento</span>
+                            </div>
+                            <div class="tarefa">
+                                <div class="check-nok"><i class="fa-solid fa-check"></i></div>
+                                <span class="tarefa-texto">Inspeção de qualidade - Lote#471</span>
+                                <span class="badge badge-pendente">Pendente</span>
+                            </div>
+                            <div class="tarefa">
+                                <div class="check-nok"><i class="fa-solid fa-check"></i></div>
+                                <span class="tarefa-texto">Troca de óleo - Compressor C#7</span>
+                                <span class="badge badge-urgente">Urgente</span>
+                            </div>
+                        </div>
+                        <h3 class="card-rodape">Crie suas tarefas</h3>
+                    </div>
 
-            <div class="funciona-container">
-                <div class="card-topo">
-                    <div class="circulo red"></div>
-                    <div class="circulo yellow"></div>
-                    <div class="circulo green"></div>
-                    <span class="titulo como-funciona">TesteFlow - Acompanhamento FEV/26</span>
+                    <div class="funciona-card">
+                        <div class="card-topo">
+                            <div class="circulo red"></div>
+                            <div class="circulo yellow"></div>
+                            <div class="circulo green"></div>
+                            <span class="titulo-janela">TesteFlow - Acompanhamento FEV/26</span>
+                        </div>
+                        <div class="tarefas-lista">
+                            <div class="tarefa">
+                                <div class="check-ok"><i class="fa-solid fa-check"></i></div>
+                                <span class="tarefa-texto riscado">Envio de lote - Lote#334</span>
+                                <span class="badge badge-concluida">100%</span>
+                            </div>
+                            <div class="tarefa">
+                                <div class="check-ok"><i class="fa-solid fa-check"></i></div>
+                                <span class="tarefa-texto riscado">Preparação de lote - Lote#286</span>
+                                <span class="badge badge-concluida">100%</span>
+                            </div>
+                            <div class="tarefa">
+                                <div class="check-ok"><i class="fa-solid fa-check"></i></div>
+                                <span class="tarefa-texto riscado">Manutenção preventiva - Es#44</span>
+                                <span class="badge badge-concluida">100%</span>
+                            </div>
+                            <div class="tarefa">
+                                <div class="check-nok"><i class="fa-solid fa-check"></i></div>
+                                <span class="tarefa-texto">Calibração de sensores - S#a12</span>
+                                <span class="badge badge-andamento">79%</span>
+                            </div>
+                            <div class="tarefa">
+                                <div class="check-nok"><i class="fa-solid fa-check"></i></div>
+                                <span class="tarefa-texto">Inspeção de qualidade - Lote#471</span>
+                                <span class="badge badge-pendente">47%</span>
+                            </div>
+                            <div class="tarefa">
+                                <div class="check-nok"><i class="fa-solid fa-check"></i></div>
+                                <span class="tarefa-texto">Troca de óleo - Compressor C#7</span>
+                                <span class="badge badge-urgente">Não Iniciada</span>
+                            </div>
+                        </div>
+                        <h3 class="card-rodape">Acompanhe o progresso</h3>
+                    </div>
+
                 </div>
-            <div class="tarefa">
-                <div class="check-ok"><i class="fa-solid fa-check"></i></div>
-                <span class="tarefa1">Envio de lote - Lote#334</span>
-                <span class="tarefa1-ok">100%</span>
             </div>
-            <div class="tarefa">
-                <div class="check-ok"><i class="fa-solid fa-check"></i></div>
-                <span class="tarefa1">Preparação de lote - Lote#286</span>
-                <span class="tarefa1-ok">100%</span>
-            </div>
-            <div class="tarefa">
-                <div class="check-ok"><i class="fa-solid fa-check"></i></div>
-                <span class="tarefa1">Manutenção preventiva - Es#44</span>
-                <span class="tarefa1-ok">100%</span>
-            </div>
-            <div class="tarefa">
-                <div class="check-nok"><i class="fa-solid fa-check"></i></div>
-                <span class="tarefa2">Calibração de sensores - S#a12</span>
-                <span class="tarefa2-ok">79%</span>
-            </div>
-            <div class="tarefa">
-                <div class="check-nok"><i class="fa-solid fa-check"></i></div>
-                <span class="tarefa3">Inspeção de qualidade - Lote#471</span>
-                <span class="tarefa3-ok">47%</span>
-            </div>
-            <div class="tarefa">
-                <div class="check-nok"><i class="fa-solid fa-check"></i></div>
-                <span class="tarefa4">Troca de óleo - Compressor C#7</span>
-                <span class="tarefa4-ok">Não Iniciada</span>
-            </div>
-                <h3>Acompanhe o progresso</h3>
-            </div>
-        </section> <!-- Fim como funciona -->
+        </section> 
 
-        <h1 id="titulo-planos">Planos que cabem no bolso</h1>
-        <section id="planos"> <!-- Inicio de planos -->
-            <div class="planos-container">
-                <h3 id="card1">Free</h3>
-                <h4 class="card1">Gratuito</h4>
-                <ul>
-                    <li><i class="fa-solid fa-check"></i>Acesso limitado a 1 pessoa</li>
-                    <li><i class="fa-solid fa-check"></i>Até 10 tarefas disponiveis</li>
-                </ul>
-            </div>
-                <p id="link1"><a href="#card1">Cadastre-se</a></p>
-                
-            <div class="planos-container">
-                <h3 id="card2">Plus</h3>
-                <h4 class="card2"><p class="card21">R$ 29</p><p>/mês</p></h4>
-                <ul>
-                    <li><i class="fa-solid fa-check"></i>Acesso limitado a 5 pessoas</li>
-                    <li><i class="fa-solid fa-check"></i>Até 50 tarefas disponíveis</li>
-                    <li><i class="fa-solid fa-check"></i>Suporte 24 horas</li>
-                </ul>
-            </div>
-            <p id="link2"><a href="#card2">Seja Plus</a></p>
+        <section id="planos-section">
+            <div class="container">
+                <h2 class="titulo-secao">Planos que cabem no bolso</h2>
+                <div class="planos-grid">
+                    
+                    <div class="plano-card">
+                        <div class="plano-header header-free">
+                            <h3>Free</h3>
+                        </div>
+                        <div class="plano-preco preco-free">
+                            <h4>Gratuito</h4>
+                        </div>
+                        <ul class="plano-beneficios">
+                            <li><i class="fa-solid fa-check"></i> Acesso limitado a 1 pessoa</li>
+                            <li><i class="fa-solid fa-check"></i> Até 10 tarefas disponiveis</li>
+                        </ul>
+                        <a href="#" class="btn-plano btn-free">Cadastre-se</a>
+                    </div>
+                        
+                    <div class="plano-card">
+                        <div class="plano-header header-plus">
+                            <h3>Plus</h3>
+                        </div>
+                        <div class="plano-preco preco-plus">
+                            <h4><span class="valor">R$ 29</span>/mês</h4>
+                        </div>
+                        <ul class="plano-beneficios">
+                            <li><i class="fa-solid fa-check"></i> Acesso limitado a 5 pessoas</li>
+                            <li><i class="fa-solid fa-check"></i> Até 50 tarefas disponíveis</li>
+                            <li><i class="fa-solid fa-check"></i> Suporte 24 horas</li>
+                        </ul>
+                        <a href="#" class="btn-plano btn-plus">Seja Plus</a>
+                    </div>
 
-            <div class="planos-container">
-                <h3 id="card3">Master</h3>
-                <h4 class="card3"><p class="card31">R$ 99</p><p>/mês</p></h4>
-                <ul>
-                    <li><i class="fa-solid fa-check"></i>Acesso totalmente Ilimitado</li>
-                    <li><i class="fa-solid fa-check"></i>Tarefas Ilimitadas</li>
-                    <li><i class="fa-solid fa-check"></i>Suporte 24 horas</li>
-                    <li><i class="fa-solid fa-check"></i>Agente exclusivo</li>
-                </ul>
-            </div>
-            <p id="link3"><a href="#card3">Seja Master</a></p>
-        </section> <!-- Fim de planos -->
+                    <div class="plano-card">
+                        <div class="plano-header header-master">
+                            <h3>Master</h3>
+                        </div>
+                        <div class="plano-preco preco-master">
+                            <h4><span class="valor">R$ 99</span>/mês</h4>
+                        </div>
+                        <ul class="plano-beneficios">
+                            <li><i class="fa-solid fa-check"></i> Acesso totalmente Ilimitado</li>
+                            <li><i class="fa-solid fa-check"></i> Tarefas Ilimitadas</li>
+                            <li><i class="fa-solid fa-check"></i> Suporte 24 horas</li>
+                            <li><i class="fa-solid fa-check"></i> Agente exclusivo</li>
+                        </ul>
+                        <a href="#" class="btn-plano btn-master">Seja Master</a>
+                    </div>
 
-        <h1 id="titulo-depoimentos">Depoimentos</h1>
-        <section id="depoimentos"> <!-- Inicio Depoimentos -->
-            <div class="depoimentos-container">
-                <img src="imagens/depoimentos/p1.png" alt="">
-                <p class="depoimento"><i>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolore assumenda odio. Voluptate eius doloremque iusto magnam nemo!</p>
-                    <p class="nome-depoimento">- Eduardo Paiva
-                </i></p>
+                </div>
             </div>
-            <div class="depoimentos-container">
-                <img src="imagens/depoimentos/p2.png" alt="">
-                <p><i>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolore assumenda odio. Voluptate eius doloremque iusto magnam nemo!</p>
-                    <p class="nome-depoimento">- Marina Silva
-                </i></p>
+        </section> 
+
+        <section id="depoimentos-section"> 
+            <div class="container">
+                <h2 class="titulo-secao invertido">Depoimentos</h2>
+                <div class="depoimentos-grid">
+                    <div class="depoimento-card">
+                        <img src="imagens/depoimentos/p1.png" alt="Foto de Eduardo Paiva">
+                        <div class="depoimento-texto">
+                            <p class="citacao">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolore assumenda odio. Voluptate eius doloremque iusto magnam nemo!"</p>
+                            <p class="nome-autor">- Eduardo Paiva</p>
+                        </div>
+                    </div>
+                    <div class="depoimento-card">
+                        <img src="imagens/depoimentos/p2.png" alt="Foto de Marina Silva">
+                        <div class="depoimento-texto">
+                            <p class="citacao">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolore assumenda odio. Voluptate eius doloremque iusto magnam nemo!"</p>
+                            <p class="nome-autor">- Marina Silva</p>
+                        </div>
+                    </div>
+                    <div class="depoimento-card">
+                        <img src="imagens/depoimentos/p3.png" alt="Foto de Diogo Costa">
+                        <div class="depoimento-texto">
+                            <p class="citacao">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolore assumenda odio. Voluptate eius doloremque iusto magnam nemo!"</p>
+                            <p class="nome-autor">- Diogo Costa</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="depoimentos-container">
-                <img src="imagens/depoimentos/p3.png" alt="">
-                <p><i>
-                    " Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolore assumenda odio. Voluptate eius doloremque iusto magnam nemo! "</p>
-                    <p class="nome-depoimento">- Diogo Costa
-                </i></p>
-            </div>
-        </section> <!-- Fim Depoimentos -->
+        </section> 
     </main>
 
     <footer id="footer">
-        <div class="footer-content">
+        <div class="container footer-content">
             <p>© 2026 TesteFlow. Gestão de tarefas ágil para sua equipe.</p>
             <p>Feito com foco em simplicidade e produtividade.</p>
         </div>
