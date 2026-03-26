@@ -590,7 +590,7 @@ footer#footer p {
 @media screen and (max-width: 820px) {
 
     p#hero-botao  {
-        border-radius: none;
+        border-radius: 0px;
     }
     
     section#como-funciona {
@@ -604,6 +604,7 @@ footer#footer p {
         flex-direction: column;
         width: 490px;
         align-self: center;
+    }
 
     .tarefa {
         display: grid;
@@ -645,7 +646,6 @@ footer#footer p {
         order: 3;
         width: 100%;
         margin: auto;
-        padding: auto;
     }
 
     p#hero-botao a {
@@ -676,4 +676,4 @@ footer#footer p {
         width: 80%;
     }
 
-}}
+}
