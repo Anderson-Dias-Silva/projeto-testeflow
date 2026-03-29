@@ -76,7 +76,7 @@ nav#menu ul {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 5px;
     flex-wrap: wrap;
 }
 
@@ -84,7 +84,7 @@ nav#menu a {
     text-decoration: none;
     color: var(--cor-texto);
     font-weight: 500;
-    padding: 8px 15px;
+    padding: 5px 5px;
     border-radius: 4px;
     transition: 0.3s;
 }
@@ -498,7 +498,7 @@ footer#footer {
 @media screen and (max-width: 600px) {
     nav#menu {
         flex-direction: column;
-        gap: 15px;
+        gap: 3px;
     }
 
     nav#menu ul {
