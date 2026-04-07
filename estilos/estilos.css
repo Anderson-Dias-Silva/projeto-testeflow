@@ -513,7 +513,7 @@ footer#footer {
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: 40px 10px;
+        padding: 40px 0px 0px 0px;
     }
     
     .hero-texto {
@@ -531,6 +531,7 @@ footer#footer {
         max-width: 100%;
         padding: 20px;
         font-size: 1.4rem;
+        border-radius: 0px;
     }
 
     .depoimento-card {
