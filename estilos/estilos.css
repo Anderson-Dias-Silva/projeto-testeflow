@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400;700;800&display=swap');
+
 /* =========================================
    VARIÁVEIS E CONFIGURAÇÕES GLOBAIS
    ========================================= */
@@ -12,8 +14,6 @@
     --cor-fundo-escuro: #2a2d46;
     --cor-borda: #484a66;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400;700;800&display=swap');
 
 * {
     margin: 0;
